@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Fundo preto */
+    padding: 20px;
+    color: #fff; /* Texto branco */
+}
+
+h1 {
+    font-size: 48px; /* Tamanho grande para o título */
+    text-align: center;
+    margin-bottom: 40px;
+    text-decoration: underline; /* Adicionar sublinhado */
+}
+
+.fila {
+    margin-bottom: 20px;
+    padding: 10px; /* Tamanho reduzido */
+    border-radius: 10px;
+    color: white;
+}
+
+.vermelho {
+    background-color: #e74c3c;
+}
+
+.azul {
+    background-color: #3498db;
+}
+
+.verde {
+    background-color: #2ecc71;
+}
+
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Aumentar espaçamento entre thumbnails */
+}
+
+.videos a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px; /* Aumentar tamanho das thumbnails */
+}
+
+.videos a img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Curvar as bordas das thumbnails */
+}
+
+.videos a:hover img {
+    border: 2px solid #fff; /* Destaque ao passar o mouse */
+}
+
+.favorita {
+    background-color: #f1c40f; /* Fundo amarelo */
+    padding: 15px; /* Reduzir o padding */
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    width: 280px; /* Diminuir um pouco a largura */
+    margin: 0 auto; /* Centralizar o quadrado */
+}
+
+.favorita h2 {
+    margin-bottom: 10px;
+}
+
+.favorita a img {
+    width: 100%; /* Manter a largura da thumbnail conforme o quadrado */
+    height: auto;
+    border-radius: 10px; /* Curvar as bordas da thumbnail */
+}
